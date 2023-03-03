@@ -1,0 +1,15 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+/// 
+@import './button';
+@import './card';
+@import './header';
+@import './items-container';
+@import './item';
+@import './summary';
+
+#home-page{
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;
+}

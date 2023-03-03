@@ -1,0 +1,32 @@
+.card{
+    //height: calc(100vh - 100px);
+    height: 712px;
+    width: 327px;
+    margin: 50px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+
+    & &__content{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    & &__summary{        
+        border-top: 1px solid #C9C9C9;
+        padding-top: 24px;
+    }
+
+    & &__items-container{
+        margin-bottom: auto;;
+    }
+
+    & &__buttons-container{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: auto;
+    }
+}

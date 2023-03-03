@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INVO Academy JS Starter with Vite</title>
+</head>
+
+<!-- In order to start your challenge, remove all the content inside <div id="home-page"></div> and start coding :) -->
+
+<body>
+  <div id="home-page">
+    <div class="card">
+      <header class="header card__header">
+        <h2 class="header__title">Order summary</h2>
+        <p class="header__description">Check if your order matches</p>
+      </header>
+      <main class="card__content">
+        <div class="items-container card__items-container">
+          <div class="item">
+            <img src="/images/shoes.png" alt="item picture" class="item__image"/>
+            <div class="item__details-container">
+              <h3 class="item__name">Nike Dunk Low Retro</h3>
+              <span class="item__category">Man's shoes</span>
+              <span class="item__size">Size: 10</span>
+            </div>
+            <p class="item__price">$100.00</p>
+          </div>
+          <div class="item">
+            <img src="/images/jacket.png" alt="item picture" class="item__image"/>
+            <div class="item__details-container">
+              <h3 class="item__name">Nike Sportswear Therma-FIT City Series</h3>
+              <span class="item__category">Woman jacket</span>
+              <span class="item__size">Size: L</span>
+            </div>
+            <p class="item__price">$170.00</p>
+          </div>          
+        </div>
+        <div class="card__summary summary">
+          <p class="summary__item summary__products">
+            <span>
+              Product summary:
+            </span>
+            <span>
+              $70.99
+            </span>
+          </p>
+          <p class="summary__item summary__delivery" >
+            <span>
+              Cost of delivery:
+            </span>
+            <span>
+              $0.00
+            </span>
+          </p>
+          <p class="summary__total summary__item">
+            <span>
+              Total:
+            </span>
+            <span>
+              $70.99
+            </span>
+          </p>
+        </div>
+      </main>
+      <footer class="card__buttons-container">
+        <button class="button button--primary">I confirm and pay</button>
+        <button class="button button--secondary">Cancel order</button>
+      </footer>
+    </div>
+  </div>
+
+  <script type="module" src="/src/global-scripts/main.js"></script>
+  <script type="module" src="/src/pages/home-page/scripts/home-page.js"></script>
+</body>
+
+</html>

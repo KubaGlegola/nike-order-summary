@@ -1,0 +1,45 @@
+.item{
+    display: flex;
+
+    & &__details-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    & &__image{
+        width: 74px;
+        height: 80px;
+        margin-right: 18px;
+        border-radius: 8px;
+    }
+
+    & &__name{
+        font-size: 18px;
+        line-height: 1.1em;
+        font-weight: 500;
+    }
+
+    & &__category{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 110%;
+        color: #8A8A8A;
+        margin: 8px 0 6px 0;
+    }
+
+    & &__size{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 110%;
+        color: #8A8A8A;
+    }
+
+    & &__price{
+        align-self: flex-end;
+        font-size: 18px;
+        line-height: 1.1em;
+        font-weight: 400;
+        text-align: right;
+        flex-grow: 1;
+    }
+}
