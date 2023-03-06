@@ -15,12 +15,12 @@
     }
 
     & &__summary{        
-        border-top: 1px solid #C9C9C9;
-        padding-top: 24px;
     }
 
     & &__items-container{
-        margin-bottom: auto;;
+        margin-bottom: 24px;
+        height: 315px;        
+        border-bottom: 1px solid #C9C9C9;
     }
 
     & &__buttons-container{
