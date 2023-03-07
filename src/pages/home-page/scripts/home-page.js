@@ -3,6 +3,13 @@
 
 import '../styles/home-page.scss'
 
-import { setupCounter } from '../../../global-scripts/scripts/counter/counter.js'
+const buttonHandler = document.querySelector('#confirmButton');
 
-setupCounter(document.querySelector('#counter'))
+buttonHandler.addEventListener('click', ()=>{
+    buttonHandler.innerHTML="<div class='loader'><div></div><div></div><div></div><div></div></div>";
+    setTimeout((        
+    )=>{
+        buttonHandler.innerHTML="I confirm and pay";        
+    }, 5000);
+    
+})

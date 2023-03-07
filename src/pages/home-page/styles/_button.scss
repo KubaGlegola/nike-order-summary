@@ -1,12 +1,15 @@
 .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     outline: none;
     border: none;
     border-radius: 60px;
     padding: 18px 0;
     font-size: 14px;    
     line-height: 1.1em;
-    width: 100%;
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
 
     &--primary{
         font-weight: 500;
@@ -35,6 +38,10 @@
         &:active{
             border: 1px solid #C9C9C9;
         }
+    }
+
+    @media (min-width: 480px){
+        font-size: 16px;
     }
 
 }
